@@ -13,7 +13,7 @@ let profitPerUnit = finalPriceWithTax - costPerUnit;
 let breakEvenUnits = Math.ceil(fixedMonthlyCosts / profitPerUnit);
 let isProfitablePerUnit = profitPerUnit > 0;
 //Print to Console
-console.log("Product Name:" + productname);
+console.log("Product Name:" + productName);
 console.log("Cost per Unit: $" + costPerUnit)
 console.log("Final Price with Tax: $" + finalPriceWithTax)
 console.log("Profit per Unit: $" + profitPerUnit)
