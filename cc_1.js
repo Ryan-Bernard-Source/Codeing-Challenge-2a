@@ -5,7 +5,7 @@ let costPerUnit = 15.99;
 let basePrice = 45.99;
 let discountRate = 0.50;
 let salesTaxRate = 0.05;
-fixedMonthlyCosts = 500;
+let fixedMonthlyCosts = 500;
 // Formulas for Price and Profit
 let discountedPrice = basePrice * (1-discountRate);
 let finalPriceWithTax = discountedPrice * (1 + salesTaxRate);
