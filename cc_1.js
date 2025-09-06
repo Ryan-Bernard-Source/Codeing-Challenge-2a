@@ -1,6 +1,6 @@
 // Coding Challenge 2a
 // Variables Created
-let productname = "Bluetooth Earbuds";
+let productName = "Bluetooth Earbuds";
 let costPerUnit = 15.99;
 let basePrice = 45.99;
 let discountRate = 0.50;
